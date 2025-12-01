@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register</h1>
+      <form id="registrationForm">
+        <div class="field">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Enter your name"
+          />
+          <div class="error-message"></div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="text"
+            placeholder="example@mail.com"
+          />
+          <div class="error-message"></div>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="password-wrapper">
+            <input
+              id="password"
+              name="password"
+              type="password"
+              placeholder="Enter your password"
+            />
+            <span class="toggle-password" data-target="password">👁️</span>
+          </div>
+          <div class="error-message"></div>
+        </div>
+
+        <div class="field">
+          <label for="confirmPassword">Confirm Password</label>
+          <div class="password-wrapper">
+            <input
+              id="confirmPassword"
+              name="confirmPassword"
+              type="password"
+              placeholder="Re-enter your password"
+            />
+            <span class="toggle-password" data-target="confirmPassword">👁️</span>
+          </div>
+          <div class="error-message"></div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+    <script src="scripts/registerForm.js"></script>
+  </body>
+</html>

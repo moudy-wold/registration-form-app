@@ -1,0 +1,12 @@
+{
+  "name": "registration-form-app",
+  "version": "1.0.0",
+  "description": "A simple registration form application with validation.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "open src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
