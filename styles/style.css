@@ -16,6 +16,12 @@ body {
   position: relative;
 }
 
+@media (max-width: 500px) {
+  body {
+    min-height: 120vh;
+  }
+}
+
 .container {
   background: rgba(255, 255, 255, 0.95);
   padding: 40px 35px;
@@ -27,7 +33,6 @@ body {
   z-index: 1;
   animation: fadeIn 0.5s ease-in-out;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
