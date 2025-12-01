@@ -20,8 +20,8 @@ body {
 body::before {
   content: "";
   position: absolute;
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 0.1) 1px,
