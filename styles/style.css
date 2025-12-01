@@ -16,12 +16,6 @@ body {
   position: relative;
 }
 
-@media (max-width: 500px) {
-  body {
-    min-height: 120vh;
-  }
-}
-
 .container {
   background: rgba(255, 255, 255, 0.95);
   padding: 40px 35px;
